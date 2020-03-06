@@ -9,6 +9,9 @@
 		<relativePath />
 	</parent>
 
+
+
+
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>net.wasdev.wlp.sample</groupId>
 	<artifactId>batch-bonuspayout-application</artifactId>
