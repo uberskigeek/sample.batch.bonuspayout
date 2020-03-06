@@ -83,7 +83,9 @@ public class GenerateDataBatchlet implements Batchlet, BonusPayoutConstants {
     @Override
     public String process() throws Exception {
 
-        writer = new BonusPayoutUtils(jobCtx).openCurrentInstanceStreamWriter();
+    	System.out.println("\n\n\n\n\nSKSK: Running with patch developed 2-29-20 of class GenerateDataBatchlet\n\n\n\n");        
+
+    	writer = new BonusPayoutUtils(jobCtx).openCurrentInstanceStreamWriter();
 
         String accountCode = acctType.getAccountCode();
         
